@@ -4,6 +4,18 @@
 
 En modern, typsäker TypeScript-klient för DAX Web API med fullständig HMAC-SHA256-autentisering och omfattande stöd för alla DAX-endpoints.
 
+## ⚠️ **Viktig Disclaimer**
+
+**Detta är en reverse-engineered TypeScript-konvertering** av Amidos .NET NuGet-paket `AmidoAB.Dax.WebClient`. 
+
+- 🔧 **Tredjepartsimplementation**: Denna kod är **inte** officiellt underhållen eller godkänd av Amido AB
+- 📞 **Support**: All support för DAX Web API, autentisering och användning sker **exklusivt via Amido AB**
+- 📚 **Officiell dokumentation**: Se [Amido DAX Documentation](https://dax-docs.amido.se/) för korrekt API-användning
+- 🏢 **Kontakt**: För frågor om DAX, kontakta Amido på [hej@amido.se](mailto:hej@amido.se)
+- ⚖️ **Ansvar**: Användning sker på egen risk - verifiera alltid mot officiell DAX-dokumentation
+
+**Rekommendation**: Använd detta för utveckling och tester, men förlita dig på Amidos officiella klienter för produktion.
+
 ## ✨ **Funktioner**
 
 - 🔐 **Säker Autentisering**: HMAC-SHA256 signerade HTTP-förfrågningar
@@ -257,9 +269,25 @@ npm run dev
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Support
+## 🆘 **Support & Ansvar**
 
-For support and questions about DAX, visit [Amido DAX Documentation](https://dax-docs.amido.se/) or contact Amido at hej@amido.se.
+### 📞 **Officiell Support (Amido AB)**
+- **DAX Web API**: All support sker via Amido AB
+- **Dokumentation**: [Amido DAX Documentation](https://dax-docs.amido.se/)
+- **Kontakt**: [hej@amido.se](mailto:hej@amido.se)
+- **Felrapportering**: Rapportera DAX-relaterade problem direkt till Amido
+
+### 🛠️ **GitHub Issues (Tredjeparts-klient)**
+- Endast för **TypeScript-konverteringsproblem**
+- Buggar i denna implementation
+- Förbättringsförslag för klienten
+- **INTE** för DAX API-frågor
+
+### ⚠️ **Ansvarsfriskrivning**
+Denna reverse-engineered klient tillhandahålls "som den är" utan någon garanti. Användning sker på egen risk. För produktionsanvändning, rekommenderar Amido AB deras officiella .NET-klienter.
+
+### 🏢 **Om Amido**
+Amido AB är utvecklaren av DAX-plattformen. Denna TypeScript-klient är en oberoende konvertering av deras .NET-bibliotek för att möjliggöra TypeScript/Node.js-integration.
 
 ## Contributing
 
