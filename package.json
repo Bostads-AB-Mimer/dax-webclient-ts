@@ -1,0 +1,46 @@
+{
+  "name": "dax-webclient-ts",
+  "version": "1.0.0",
+  "description": "TypeScript client library for Amido DAX Web API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node examples/basic-usage.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "dax",
+    "amido",
+    "web-api",
+    "typescript",
+    "client",
+    "http",
+    "authentication",
+    "hmac",
+    "sha256"
+  ],
+  "author": "Converted from AmidoAB.Dax.WebClient NuGet package",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/dax-webclient-ts.git"
+  }
+}
